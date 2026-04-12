@@ -760,19 +760,6 @@ function LiveDemoTab() {
           </div>
         )}
       </Card>
-
-      <Card title="How to Present This as Your Midterm Demo" accent={C.accent3}>
-        <div style={{ fontSize: 13, color: C.muted, lineHeight: 1.8 }}>
-          <strong style={{ color: C.text }}>Recommended presentation flow:</strong><br />
-          1️⃣ Start with the <strong style={{ color: C.accent }}>Comparison Table</strong> (Overview tab) to show you understand PrimeKG<br />
-          2️⃣ Walk through your <strong style={{ color: C.accent2 }}>6-step pipeline</strong> (Method tab) — this is your core novelty<br />
-          3️⃣ Show the <strong style={{ color: C.accent3 }}>12 data sources</strong> — emphasize API-first vs static downloads<br />
-          4️⃣ Highlight <strong style={{ color: C.accent4 }}>new node types</strong> (Biomarker, Clinical Trial, Side Effect, Risk Factor)<br />
-          5️⃣ Show <strong style={{ color: C.accent5 }}>edge attributes</strong> — confidence scores and provenance are your differentiator<br />
-          6️⃣ Demo this <strong style={{ color: C.accent }}>interactive visualization</strong> — hover, filter, explore<br />
-          7️⃣ Present <strong style={{ color: C.accent2 }}>validation metrics</strong> with the bar charts and explain each method
-        </div>
-      </Card>
     </div>
   );
 }
